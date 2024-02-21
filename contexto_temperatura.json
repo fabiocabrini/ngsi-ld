@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "sensing": "https://uri.etsi.org/ngsi-ld/sensing#",
+    "sensing:TemperatureSensor": {
+      "@id": "https://schema.org/Thermostat",
+      "@type": "@id"
+    },
+    "sensing:hasValue": "https://uri.etsi.org/ngsi-ld/hasValue",
+    "sensing:temperature": "sensing:hasValue"
+  }
+}
